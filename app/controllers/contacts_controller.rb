@@ -1,4 +1,4 @@
-class ContactController < ApplicationController
+class ContactsController < ApplicationController
 
   def new
     @contact = Contact.new
@@ -12,7 +12,7 @@ class ContactController < ApplicationController
       redirect_to new_contact_path, notice: "Error Occurred"
     end
   end
-  
+
 
   private
   def contact_params
