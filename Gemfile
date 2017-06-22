@@ -36,6 +36,9 @@ gem 'bootstrap-sass', '~> 3.3.6'
 # Added Font Awesome font catalog
 gem "font-awesome-rails"
 
+# Added Hirb for better console viewing
+gem 'hirb', '~> 0.2.4'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
